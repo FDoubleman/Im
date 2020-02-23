@@ -20,6 +20,7 @@ public class AccountService {
 
     @POST
     @Path("/login")
+    // 指定 接受参数格式 和返回数据格式
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public User post() {
